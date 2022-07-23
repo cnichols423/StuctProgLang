@@ -18,6 +18,8 @@ int fib(int x){
   else return fib(x-1) + fib(x-2);
 }
 
+///////////////////////////////////////////////////////////////////////////////
+
 // pass by value function
 void value(int a, int b){
    a += b;
@@ -31,8 +33,10 @@ void swap(int *a, int *b){
   *b = tmp;
 }
 
+/////////////////////////////////////////////////////////////////////////////////
 
 int main(){
+/////////////////////////////////////////////////////////////////////////////////
   // demonstrating recurrsion
   cout << "showing recursion" << endl;
   // code for fibbonacci
@@ -48,7 +52,8 @@ int main(){
     ++start;
   } // end of recurrsion
 
-
+//////////////////////////////////////////////////////////////////////////////////////
+  
   cout << "\n";
   cout << "showing call by value & refernce" << endl;
   // demonstarting of parameter passing
@@ -76,7 +81,7 @@ int main(){
   cout << "after swap first num is " << num1 << " and second num is " << num2 << endl;
   // end of parameter passing
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////
 
   // demonstrating dynamic memory
   cout << "\n";

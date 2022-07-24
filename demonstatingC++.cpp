@@ -91,6 +91,8 @@ int main(){
   cout << "how many numbers would you like to put in the array? : ";
   cin >> size;
 
+  // creates a dynamic array of size
+  // if it cant allocate we use nothrow to change it to nullptr and continue anyway
   c = new(nothrow) int[size];
   for(b = 0; b < size; ++b){
     cout << "enter a number: ";

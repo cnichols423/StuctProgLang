@@ -46,3 +46,7 @@ if __name__ == "__main__":
 
 print("\n")
 print("showing dynamic memory")
+import random
+mem = int(input("enter a number for heap size: "))
+randNum = random.sample(range(1,100),mem)
+print(randNum)
